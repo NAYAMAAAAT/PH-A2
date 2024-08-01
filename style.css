@@ -198,6 +198,80 @@ body {
 
 
 
+#change-habit,
+#run-easily{
+  background-color: black;
+}
+
+section {
+    padding-bottom: 100px;
+  }
+/* habit-section */
+
+.habit-container {
+    max-width: 1060px;
+    margin: 0 auto;
+    padding-top: 100px;
+  }
+  .habit-title {
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 80px;
+  }
+  .habit-card-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .habit-card {
+    color: white;
+    text-align: center;
+  }
+  .habit-card h2 {
+    margin: 20px 0 10px 0;
+  }
+  .habit-card p {
+    width: 80%;
+    margin: 0 auto;
+  }
+  .habit-card img {
+    border-radius: 50%;
+  }
+  
+  /* Run section */
+  
+  .run-easily-container {
+    max-width: 1060px;
+    margin: 0 auto;
+    padding: 50px;
+    border-radius: 15px;
+    display: flex;
+    background: rgb(34, 34, 34);
+  }
+  .run-easily-texts {
+    width: 60%;
+    padding-right: 200px;
+  }
+  .run-easily-texts p {
+    margin-bottom: 20px;
+    letter-spacing: 0.3px;
+  }
+  .run-easily-image {
+    width: 40%;
+  }
+  .run-easily-image img {
+    width: 100%;
+    border-radius: 15px;
+  }
+ 
+  
+
+
+
+
+
+
 
 
 
@@ -270,4 +344,70 @@ body {
       right: -30px;
       scale: 0.7;
     }
+
+
+
+    #change-habit {
+        padding-bottom: 30px;
+        padding-top: 20px;
+      }
+      .habit-container {
+        padding: 0 20px 0 20px;
+      }
+      .habit-title {
+        width: 100%;
+        margin-bottom: 50px;
+      }
+      .habit-title h1 {
+        font-size: 32px;
+        margin-bottom: 15px;
+      }
+      .habit-card-container {
+        flex-direction: column;
+      }
+      .habit-card h2 {
+        margin: 10px;
+        font-size: 20px;
+        font-weight: 600;
+      }
+      .habit-card p {
+        width: 70%;
+        margin-bottom: 30px;
+      }
+      .habit-card img {
+        border-radius: 50%;
+      }
+      #run-easily {
+        padding-bottom: 50px;
+      }
+      
+      .run-easily-container {
+        padding: 20px;
+        margin: 0 20px;
+        flex-direction: column;
+      }
+      
+      .run-easily-texts h1 {
+        font-size: 32px;
+      }
+      
+      .run-easily-texts {
+        width: 100%;
+        padding-right: 0px;
+      }
+      
+      .run-easily-texts button {
+        width: 100%;
+        margin-bottom: 30px;
+      }
+      
+      .run-easily-texts p {
+        margin-bottom: 30px;
+      }
+      
+      .run-easily-image {
+        width: 100%;
+      }
+    
+    
 }  
