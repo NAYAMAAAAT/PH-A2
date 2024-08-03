@@ -500,7 +500,7 @@ section {
   }
   
   .pricing-card {
-    background-color: #8a3f31;
+    background-color:#695c59;
     border: 1px solid rgba(255, 255, 255, 0.5);
     border-radius: 18px;
     padding: 30px;
@@ -783,11 +783,10 @@ section {
     height: auto;
     border-radius: 15px;
   }
-  .trow1-images3,
-  .trow2-images2 {
+  .trow2-images1,
+  .trow1-images1{
     display: none;
   }
-  
 
 
   #footer {
